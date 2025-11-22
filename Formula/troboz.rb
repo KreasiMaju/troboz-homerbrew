@@ -1,14 +1,14 @@
 class Troboz < Formula
   desc "Expose your local services to the world"
   homepage "https://github.com/KreasiMaju/troboz"
-  version "0.1.0-12cd82ee"
+  version "0.1.0-7c6699d0"
   
   if Hardware::CPU.intel?
-    url "https://github.com/KreasiMaju/troboz-release/releases/download/v0.1.0-12cd82ee/troboz-0.1.0-12cd82ee-macos-x86_64.tar.gz"
-    sha256 "605eed28020221f6630f0312d55a0a0ea97d54e736a1746c305f873a709b6aa2"
+    url "https://github.com/KreasiMaju/troboz-release/releases/download/v0.1.0-7c6699d0/troboz-0.1.0-7c6699d0-macos-x86_64.tar.gz"
+    sha256 "184636f82b4ceee104947976c92f33abc6d4ff8f6abdc01f0eb4349a687e2449"
   else
-    url "https://github.com/KreasiMaju/troboz-release/releases/download/v0.1.0-12cd82ee/troboz-0.1.0-12cd82ee-macos-arm64.tar.gz"
-    sha256 "72937e21503e143273213a601a54c9ccf8a629e065d2e3d08d358b46f7594eed"
+    url "https://github.com/KreasiMaju/troboz-release/releases/download/v0.1.0-7c6699d0/troboz-0.1.0-7c6699d0-macos-arm64.tar.gz"
+    sha256 "6c993312dec5097da62747fa790625d74f7f210f772befd700e1fdc8e2ab6bec"
   end
   
   def install
