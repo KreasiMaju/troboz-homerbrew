@@ -1,15 +1,15 @@
 class Troboz < Formula
   desc "Troboz - Secure tunnel client"
   homepage "https://troboz.com"
-  version "0.1.43"
+  version "0.1.44"
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/KreasiMaju/troboz-release/releases/download/v0.1.43/troboz-0.1.43-macos-arm64.tar.gz"
-    sha256 "5fdc0fd8965b9ad0b24f1f14ed99a7fb8593c084a876178bf693ee225c72b7cd"
+    url "https://github.com/KreasiMaju/troboz-release/releases/download/v0.1.44/troboz-0.1.44-macos-arm64.tar.gz"
+    sha256 "3c7fbbdb3bea909fc2847717ac9008fb70a437cb0b7cd79b3a7015c778ca62d2"
   else
-    url "https://github.com/KreasiMaju/troboz-release/releases/download/v0.1.43/troboz-0.1.43-macos-x86_64.tar.gz"
-    sha256 "1027d8be043b68f7fe5039385cab9633ed9432a9f93d472c065c98b76893ef84"
+    url "https://github.com/KreasiMaju/troboz-release/releases/download/v0.1.44/troboz-0.1.44-macos-x86_64.tar.gz"
+    sha256 "66dfaba3d136935c00883c2299e542fd8a14ac2623f5680dea2141c0abf0c61c"
   end
 
   def install
